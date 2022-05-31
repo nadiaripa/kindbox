@@ -1,0 +1,145 @@
+body {
+    background: #F9FAFB;
+}
+#MainProject {
+    text-align: center;
+    padding: 72px 0 0 0;
+}
+.prj_descriptiopn {
+    text-align: center;
+    color: #333333;
+    font-family: "Inter", Sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 29px;
+}
+.prj_heading {
+    color: #363436;
+    font-family: "Lexend", Sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 67px;
+}
+.input_box {
+    width: 100%;
+    overflow: hidden;
+    padding: 0 290px;
+    margin-top: 31px;
+}
+.search_box {
+    width: 78%;
+    float: left;
+}
+.search_box input {
+    width: 100%;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 3px;
+    border-color: #0201012B;
+    font-family: "Inter", Sans-serif;
+    font-size: 15px;
+    padding: 3px;
+    line-height: 2;
+    color: #7a7a7a;
+    margin-top: 9px;
+}
+.search_btn_box {
+    width: 22%;
+    float: right;
+}
+.search_btn_box a.search_btn {
+    font-family: "Arial", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background: #363436;
+    padding: 10px 38px 10px 38px;
+    margin: -35px 0px 0px 0px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF;
+    border-radius: 6px 6px 6px 6px;
+    line-height: 3;
+    text-decoration: none;
+}
+.search_btn_box a.search_btn:hover {
+    background: #33335C;
+}
+/* project content */
+#ProjectContent {
+    padding: 115px 104px 113px 104px;
+}
+.blog_inner_space {
+    margin-bottom: 49px;
+}
+.prj_col_6 {
+    flex-basis: 50%;
+    width: 50%;
+}
+.blog_project_box {
+    border-radius: 7px;
+    margin: 0 36px;
+}
+.blog_project_box img{
+    border-radius: 7px 7px 0px 0px;
+}
+.blog_feature_inner_content {
+    background: #f3f9fe;
+    padding: 11px;
+    border-radius: 0px 0px 7px 7px;
+}
+.blog_pr_heading {
+    font-family: "Lexend", Sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #271d1d;
+}
+.blog_pr_desc {
+    font-family: "Inter", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #363436;
+}
+.blog_pr_line {
+    color: #2c2c2c59;
+    margin: 15px 0;
+    height: 2px!important;
+}
+.blog_fund_heading {
+    font-family: "Inter", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #363436;
+}
+.blog_fund_ammount {
+    font-family: "Inter", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #363436;
+}
+span.blog_a {
+
+}
+span.b {
+    font-weight: 400;
+}
+.blog_fund_btn_box_in {
+    display: flex;
+    padding: 2px 0 10px 0;
+}
+a.blog_fund_btn_in {
+    text-decoration: none!important;
+    text-align: center;
+    padding: 7px 7px 7px 7px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 3px 3px 3px 3px;
+    flex-basis: 100%;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: "Inter", Sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #484d52;
+}
